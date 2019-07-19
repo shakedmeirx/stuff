@@ -1,0 +1,242 @@
+pretty cool
+
+html/bootstrap
+    <!--search bar-->    <div class="input-group">
+                <input type="text" class="form-control" placeholder="enter text to search ">
+                <div class="input-group-append">
+                    <button class="btn btn-dark" type="submit">search fker</button>
+
+                </div>
+
+            </div>
+            makes a basic banner
+
+                <div class="jumbotron">
+            <h1 class="disply-4">click here fker</h1>
+            <p class="lead">be sure to click </p>
+            <a class="btn btn-danger" href="#">click</a>
+        </div>
+
+        makes a card with title subtitle text and a link
+
+
+           <div class="card">
+        <div class="card-body">
+            <h1 class="card-title">card</h1>
+            <h2 class="card-subtitle">this is card</h2>
+            <p class="card-text ">card yes</p>
+            <a class="card-link" href="https://google.com">click</a>
+        </div>
+    </div>
+
+    card with an img the img needs to come before the cards body
+
+        <div class="card" style="width:20rem">
+            <img  class="card-img-top"src="https://azcd.harveynorman.com.au/media/catalog/product/cache/21/image/992x558/9df78eab33525d08d6e5fb8d27136e95/4/b/4bu26pa-hp-pavilion-x360-14-cd0007tu-14-inch-2-in-1-laptop_1.jpg">
+        <div class="card-body">
+            <h1 class="card-title">laptop</h1>
+            <h6 class="card-subtitle">1500$</h6>
+            <p class="card-text "> hp10 great for porn</p>
+            <button  class="btn btn-danger" href="https://google.com">buy</button>
+            
+        </div>
+
+        list inside a card 
+
+            <div class="card" style="width:20rem">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">1</li>
+            <li class="list-group-item">2</li>
+            <li class="list-group-item">3</li>
+        </ul>
+    
+    </div>
+
+    a card with footer and header and texted aligned to center
+
+        <div class="card text-center" style="width : 10rem  ">
+    <div class="card-header " >hello</div>
+    <div class="card-body">
+        <h3 class="card-title">hello</h3>
+        <p class="card-text>">
+            hello
+        </p>
+        <div class="card-footer">end</div>
+    </div>
+  
+    
+    </div>
+
+    a card with an img overlay
+
+     <div class="card text-center bg-dark "   >
+        <img class="card-img" src="computer.jpg">
+        <div class="card-img-overlay">
+                <div class="card-header " >hello</div>
+                <h1 class="card-title">hello</h1>
+                <p class="card-text>">
+                    hello
+                </p>
+        </div>
+
+
+
+        card group/deck
+
+           <div class="card-deck">
+    <div class="card text-center bg-danger"  >
+    <div class="card-header">hello</div>
+    <div class="card-body">
+        <h2 class="card-title">yes</h2>
+        <p class="card-text">
+            dsdsddddsdsdsdsdsdsdssd
+        </p>
+    </div>
+
+      
+        </div>
+
+        <div class="card text-center"   >
+                <div class="card-header">hello</div>
+                <div class="card-body">
+                    <h2 class="card-title">yes</h2>
+                    <p class="card-text">
+                        dsdsddddsdsdsdsdsdsdssd
+                    </p>
+        
+      
+            </div>
+        </div>
+            <div class="card text-center bg-primary" >
+                    <div class="card-header">hello</div>
+                    <div class="card-body">
+                        <h2 class="card-title">yes</h2>
+                        <p class="card-text">
+                            dsdsddddsdsdsdsdsdsdssd
+                        </p>
+        
+      
+                </div>
+    </div>
+    <div class="card text-center bg-primary"  >
+            <div class="card-header">hello</div>
+            <div class="card-body">
+                <h2 class="card-title">yes</h2>
+                <p class="card-text">
+                    dsdsddddsdsdsdsdsdsdssd
+                </p>
+
+
+        </div>
+</div>
+
+</div>
+ 
+     
+    a basic nav bar 
+
+           <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active">home</a>
+                </li>
+                <li class="nav-item">
+                     <a class="nav-link " href="#">about</a>
+                 </li>
+                 <li class="nav-item">
+                         <a class="nav-link "href="#">contact</a>
+                     </li>
+                     <li class="nav-item">
+                             <a class="nav-link "href="#">maybe</a>
+                         </li>
+
+                         breadcrumb sort of a nav bar 
+
+                              <nav aria-label="breadcrumb">
+           <ol class="breadcrumb">
+               <il class="breadcrumb-item  active "aria-current="page">
+                   home
+                
+               </il>
+               <il class="breadcrumb-item">
+                    <a href="# ">photos</a>
+               </il>
+               <il class="breadcrumb-item">
+                    <a href="# ">profile</a>
+               </il>
+           </ol>
+       </nav>
+
+nav bar that didnt work\
+
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <span class="navbar-brand h1">Fxp</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-targer="#newMenu" aria-controls="newMenu" aria-expanded="false" aria-label="Toggle navigation">
+    
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="newMenu">
+        <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link">item1</a>
+            <a href="#" class="nav-item nav-link">item3</a>
+            <a href="#" class="nav-item nav-link">item2</a>
+            <a href="#" class="nav-item nav-link">item5</a>
+        </div>
+    </div>
+
+      
+ 
+      
+  </nav>
+
+  a form using bootstrap 
+
+         <div class="row ">
+           <div class="col-md-4 ">
+               <form>
+                   <div class="form-group">
+                       <label>email</label>
+                       <input type="email" class="form-control" placeholder="email">
+                   </div>
+                   <div class="form-group">
+                        <label>password</label>
+                       <input type="text" class="form-control"placeholder="password">
+
+                   </div>
+                   <div class="form-group">
+                        <label> repeat password</label>
+                       <input type="text" class="form-control"placeholder="password">
+
+                   </div>
+                   <div class="form-group">
+                        <label>tell us about yourself</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        
+                        <input class="form-check-input" type="checkbox" value="" id="check1">
+                        <label class="form-check-lable "for="check1">choose</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="radio1" id="radio12" value="option 1" checked>
+                        <label  class="form-check-lable"for="radio12">radio</label>
+
+                    </div>
+                    <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="radio1" id="radio22" value="option 2" >
+                            <label  class="form-check-lable"for="radio22">radio2</label>
+    
+                        </div>
+                   <div class="form-group">
+                       <label>gender</label>
+                       <select multiple class="form-control">
+                           <option>male</option>
+                           <option>female</option>
+                       </select>
+                   </div>
+                 
+                
+                   <button type="submit" class="btn btn-danger">register</button>
+               </form>
+           </div>
+       </div>
